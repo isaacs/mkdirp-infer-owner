@@ -1,6 +1,6 @@
 {
   "name": "mkdirp-infer-owner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mkdirp, but chown to the owner of the containing folder if possible and necessary",
   "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
   "license": "ISC",
