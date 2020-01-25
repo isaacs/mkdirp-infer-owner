@@ -1,0 +1,25 @@
+{
+  "name": "mkdirp-infer-owner",
+  "version": "0.0.0",
+  "description": "mkdirp, but chown to the owner of the containing folder if possible and necessary",
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
+  "license": "ISC",
+  "scripts": {
+    "test": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "tap": {
+    "check-coverage": true
+  },
+  "devDependencies": {
+    "require-inject": "^1.4.4",
+    "tap": "^14.10.6"
+  },
+  "dependencies": {
+    "chownr": "^1.1.3",
+    "infer-owner": "^1.0.4",
+    "mkdirp": "^1.0.3"
+  }
+}
