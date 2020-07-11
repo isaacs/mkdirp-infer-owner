@@ -29,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isaacs/mkdirp-infer-owner"
+  },
+  "engines": {
+    "node": ">=10"
   }
 }
